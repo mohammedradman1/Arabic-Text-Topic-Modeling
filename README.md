@@ -1,7 +1,7 @@
 # Arabic-Text-Topic-Modeling
 Arabic Text Topic Modeling: A Comparative Analysis of Latest Techniques
 
-🧭 Overview
+🧭 **Overview**
 
 This project investigates Arabic topic modeling using:
 
@@ -14,7 +14,8 @@ K‑Means and DBSCAN (clustering baselines)
 Predicted clusters are evaluated against true labels using AMI.
 
 ---
-🗂️ Project Structure
+🗂️ **Project Structure**
+
 The project is divided into six main sections as follows:
 
 ✏️ Text Preprocessing – Cleaning and preparing the Arabic text (stopword removal, normalization, etc.)
@@ -31,7 +32,7 @@ The project is divided into six main sections as follows:
 
 ---
 
-📦 Dataset
+📦 **Dataset**
 
 Source: Kaggle — DataSet for Arabic Classification 
 
@@ -42,7 +43,7 @@ Preprocessing: Arabic stop‑word removal (NLTK). Optional advanced preprocessin
 Link: [link]([https://www.linkedin.com/in/mrm1/](https://www.kaggle.com/datasets/saurabhshahane/arabic-classification)) 
 
 ---
-🛠️ Preliminary Requirements
+🛠️ **Preliminary Requirements**
 
 This project requires the following setup before running:
 
