@@ -33,8 +33,8 @@ This project requires the following setup before running:
 Python Environment
 Python 3.10 or later.
 
-Required Packages
-Install all dependencies:
+Required Packages, Install all dependencies:
+
 <code> pip install pandas numpy scikit-learn nltk bertopic sentence-transformers umap-learn hdbscan matplotlib </code>
 
 
