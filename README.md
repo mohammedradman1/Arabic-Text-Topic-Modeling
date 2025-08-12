@@ -14,6 +14,22 @@ K‑Means and DBSCAN (clustering baselines)
 Predicted clusters are evaluated against true labels using AMI.
 
 ---
+🗂️ Project Structure
+The project is divided into six main sections as follows:
+
+✏️ Text Preprocessing – Cleaning and preparing the Arabic text (stopword removal, normalization, etc.)
+
+🔤 Embedding – Converting text into numerical vectors (e.g., BERT embeddings, TF-IDF).
+
+📉 Dimensionality Reduction – Reducing feature space (e.g., UMAP) for efficiency and visualization.
+
+🧩 Clustering – Grouping similar documents (e.g., HDBSCAN, K-Means, DBSCAN).
+
+📚 Topic Representation (Topic Modeling) – Extracting and representing main topics from clusters.
+
+📊 Evaluation of Topic Modeling – Measuring quality using metrics like Adjusted Mutual Information (AMI) and Topic Coherence.
+
+---
 
 📦 Dataset
 
@@ -25,7 +41,7 @@ Preprocessing: Arabic stop‑word removal (NLTK). Optional advanced preprocessin
   
 Link: [link]([https://www.linkedin.com/in/mrm1/](https://www.kaggle.com/datasets/saurabhshahane/arabic-classification)) 
 
-
+---
 🛠️ Preliminary Requirements
 
 This project requires the following setup before running:
@@ -33,7 +49,7 @@ This project requires the following setup before running:
 Python Environment
 Python 3.10 or later.
 
-Required Packages, Install all dependencies:
+📦 Required Packages, Install all dependencies:
 
 <code> pip install pandas numpy scikit-learn nltk bertopic sentence-transformers umap-learn hdbscan matplotlib </code>
 
